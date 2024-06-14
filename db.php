@@ -2,11 +2,10 @@
 
 class Database
 {
-
     private $dbHost = "localhost";
     private $dbUser = "root";
     private $dbPass = "";
-    private $dbName = "rest_api_db";
+    private $dbName = "api_data";
     public $conn;
     public function getConnection()
     {
