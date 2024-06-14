@@ -23,10 +23,6 @@ function getProduct(){
 
 
 
-
-
-
-
 // User Table functions 
 
 
