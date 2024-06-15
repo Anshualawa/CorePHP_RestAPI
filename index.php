@@ -13,6 +13,7 @@
     $requestMethod = $_SERVER["REQUEST_METHOD"];
     $requestURL = explode('/', trim($_SERVER['REQUEST_URI'], '/')); ?>
 
+
     <section class="w-4/5 h-dvh p-5 m-auto border">
         <div class="w-full">
             <div class="w-full p-5 text-center">
@@ -35,6 +36,7 @@
             </div>
         </div>
     </section>
+    
 
     <script src="<?php echo './assets/jquery.js' ?>"></script>
 </body>
